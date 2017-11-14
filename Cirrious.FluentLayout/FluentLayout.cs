@@ -108,11 +108,14 @@ namespace Cirrious.FluentLayouts.Touch
 
 		private NSLayoutConstraint CreateConstraint()
 		{
+            //var x = View.SafeAreaLayoutGuide;
 			var constraint = NSLayoutConstraint.Create(
-				View,
+				View.SafeAreaLayoutGuide,
+                //View,
 				Attribute,
 				Relation,
-				SecondItem,
+				((UIView)SecondItem).SafeAreaLayoutGuide,
+                //SecondItem,
 				SecondAttribute,
 				Multiplier,
 				Constant);

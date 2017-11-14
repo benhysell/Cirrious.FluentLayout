@@ -76,9 +76,10 @@ namespace QuickLayout.Touch.Views
             var hMargin = 10;
             var vMargin = 10;
 
-
+            var safeGuide = View.SafeAreaLayoutGuide;
+           // safeGuide.BottomAnchor.
             View.AddConstraints(
-
+               // fNameLabel.AtTopOf(ObjCRuntime.Runtime.GetNSObject(TopLayoutGuide.Handle), vMargin),
                 fNameLabel.AtTopOf(View, vMargin),
                 fNameLabel.AtLeftOf(View, hMargin),
                 fNameLabel.ToLeftOf(sNameLabel, hMargin),

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8">
+            <objects>
+                <viewController id="9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6"/>
+                        <viewControllerLayoutGuide type="bottom" id="7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="10">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Icons/1024x1024.png" translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                                <rect key="frame" x="220" y="180" width="160" height="240"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="13" firstAttribute="leading" secondItem="10" secondAttribute="leading" id="AeD-Th-AO1"/>
+                            <constraint firstItem="7" firstAttribute="top" secondItem="13" secondAttribute="bottom" id="POu-ab-vOm"/>
+                            <constraint firstItem="13" firstAttribute="top" secondItem="6" secondAttribute="bottom" id="mZL-kD-8nt"/>
+                            <constraint firstAttribute="trailing" secondItem="13" secondAttribute="trailing" id="nEn-ut-98k"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24" y="12"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icons/1024x1024.png" width="1024" height="1024"/>
+        <image name="Icons/1024x748.png" width="1024" height="748"/>
+        <image name="Icons/114x114.png" width="114" height="114"/>
+        <image name="Icons/120x120.png" width="120" height="120"/>
+        <image name="Icons/144x144.png" width="144" height="144"/>
+        <image name="Icons/152x152.png" width="152" height="152"/>
+        <image name="Icons/1536x2008.png" width="1536" height="2008"/>
+        <image name="Icons/2048x1496.png" width="2048" height="1496"/>
+        <image name="Icons/320x480.png" width="320" height="480"/>
+        <image name="Icons/512x512.png" width="512" height="512"/>
+        <image name="Icons/57x57.png" width="57" height="57"/>
+        <image name="Icons/640x1136.png" width="640" height="1136"/>
+        <image name="Icons/640x960.png" width="640" height="960"/>
+        <image name="Icons/72x72.png" width="72" height="72"/>
+        <image name="Icons/768x1004.png" width="768" height="1004"/>
+        <image name="Icons/76x76.png" width="76" height="76"/>
+        <image name="Icons/MiniIconBackBar.png" width="20" height="20"/>
+        <image name="Image" width="1024" height="1024"/>
+    </resources>
+</document>
